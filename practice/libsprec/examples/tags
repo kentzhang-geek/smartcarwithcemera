@@ -1,0 +1,195 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFSIZE	../src/flac_encoder.c	15;"	d	file:
+BUF_SIZE	../src/web_client.c	16;"	d	file:
+CC	../Makefile	/^CC = gcc$/;"	m
+CFLAGS	../Makefile	/^CFLAGS = -g -std=gnu99 -fPIC -c -Wall -Iinclude$/;"	m
+JSONZ_JSONZ_H	../include/jsonz/jsonz.h	14;"	d
+JSONZ_OBJECT_H	../include/jsonz/object.h	11;"	d
+JSONZ_TYPE_ARRAY	../include/jsonz/object.h	22;"	d
+JSONZ_TYPE_BOOL	../include/jsonz/object.h	18;"	d
+JSONZ_TYPE_DICT	../include/jsonz/object.h	23;"	d
+JSONZ_TYPE_FLOAT	../include/jsonz/object.h	20;"	d
+JSONZ_TYPE_INT	../include/jsonz/object.h	19;"	d
+JSONZ_TYPE_NULL	../include/jsonz/object.h	17;"	d
+JSONZ_TYPE_STRING	../include/jsonz/object.h	21;"	d
+LD	../Makefile	/^LD = $(CC)$/;"	m
+LDFLAGS	../Makefile	/^LDFLAGS = -g -std=gnu99 -shared -fPIC -lcurl -lFLAC -lasound$/;"	m
+NUM_BUFFERS	../src/wav.c	19;"	d	file:
+OBJECTS	../Makefile	/^OBJECTS = src\/wav.o src\/flac_encoder.o src\/web_client.o src\/recognize.o src\/jsonz.o src\/j_object.o$/;"	m
+RESPONSE_SIZE	../src/web_client.c	17;"	d	file:
+RIFF_marker	../include/sprec/wav.h	/^	char RIFF_marker[4];$/;"	m	struct:sprec_wav_header
+SPREC_WAV_HEADER_SIZE	../include/sprec/wav.h	24;"	d
+TARGET	../Makefile	/^TARGET = libsprec.so$/;"	m
+__SPREC_FLAC_ENCODER_H__	../include/sprec/flac_encoder.h	10;"	d
+__SPREC_RECOGNIZE_H__	../include/sprec/recognize.h	10;"	d
+__SPREC_SPREC_H__	../include/sprec/sprec.h	10;"	d
+__SPREC_WAV_H__	../include/sprec/wav.h	10;"	d
+__SPREC_WEB_CLIENT_H__	../include/sprec/web_client.h	10;"	d
+audio_file	../src/wav.c	/^	AudioFileID audio_file;$/;"	m	struct:sprec_record_state	file:
+base	../src/j_object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_array_t	file:
+base	../src/j_object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_dict_t	file:
+base	../src/j_object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_null_t	file:
+base	../src/j_object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_number_t	file:
+base	../src/j_object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_string_t	file:
+base	../src/object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_array_t	file:
+base	../src/object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_dict_t	file:
+base	../src/object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_null_t	file:
+base	../src/object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_number_t	file:
+base	../src/object.c	/^	jsonz_object_t base;$/;"	m	struct:jsonz_string_t	file:
+bits_per_sample	../include/sprec/wav.h	/^	uint16_t bits_per_sample;$/;"	m	struct:sprec_wav_header
+buffer_byte_size	../src/wav.c	/^	UInt32 buffer_byte_size; $/;"	m	struct:sprec_record_state	file:
+buffers	../src/wav.c	/^	AudioQueueBufferRef buffers[NUM_BUFFERS];$/;"	m	struct:sprec_record_state	file:
+bytes_per_frame	../include/sprec/wav.h	/^	uint16_t bytes_per_frame;$/;"	m	struct:sprec_wav_header
+bytes_per_second	../include/sprec/wav.h	/^	uint32_t bytes_per_second;$/;"	m	struct:sprec_wav_header
+callback	../examples/simple.c	/^void callback(struct sprec_result *res, void *data)$/;"	f
+callback	../src/recognize.c	/^	sprec_callback callback;$/;"	m	struct:sprec_recattr_internal	file:
+chkmalloc	../src/j_object.c	/^static void *chkmalloc(size_t sz)$/;"	f	file:
+chkmalloc	../src/object.c	/^static void *chkmalloc(size_t sz)$/;"	f	file:
+confidence	../include/sprec/recognize.h	/^	double confidence;$/;"	m	struct:sprec_result
+current_packet	../src/wav.c	/^	SInt64 current_packet;$/;"	m	struct:sprec_record_state	file:
+data	../include/sprec/web_client.h	/^	char *data;$/;"	m	struct:sprec_server_response
+data_format	../src/wav.c	/^	AudioStreamBasicDescription data_format;$/;"	m	struct:sprec_record_state	file:
+data_header_length	../include/sprec/wav.h	/^	uint32_t data_header_length;$/;"	m	struct:sprec_wav_header
+duration	../src/recognize.c	/^	float duration;$/;"	m	struct:sprec_recattr_internal	file:
+file_size	../include/sprec/wav.h	/^	uint32_t file_size;$/;"	m	struct:sprec_wav_header
+filetype_header	../include/sprec/wav.h	/^	char filetype_header[4];$/;"	m	struct:sprec_wav_header
+fltval	../src/j_object.c	/^		double fltval;$/;"	m	union:jsonz_number_t::__anon2	file:
+fltval	../src/object.c	/^		double fltval;$/;"	m	union:jsonz_number_t::__anon1	file:
+format_marker	../include/sprec/wav.h	/^	char format_marker[4];$/;"	m	struct:sprec_wav_header
+format_type	../include/sprec/wav.h	/^	uint16_t format_type;$/;"	m	struct:sprec_wav_header
+http_callback	../src/web_client.c	/^static size_t http_callback(char *ptr, size_t count, size_t blocksize, void *userdata)$/;"	f	file:
+intval	../src/j_object.c	/^		long long intval;$/;"	m	union:jsonz_number_t::__anon2	file:
+intval	../src/object.c	/^		long long intval;$/;"	m	union:jsonz_number_t::__anon1	file:
+jsonz_array_add	../src/j_object.c	/^void jsonz_array_add(void *obj, void *elem)$/;"	f
+jsonz_array_add	../src/object.c	/^void jsonz_array_add(void *obj, void *elem)$/;"	f
+jsonz_array_get	../src/j_object.c	/^void *jsonz_array_get(void *obj, unsigned idx)$/;"	f
+jsonz_array_get	../src/object.c	/^void *jsonz_array_get(void *obj, unsigned idx)$/;"	f
+jsonz_array_size	../src/j_object.c	/^size_t jsonz_array_size(void *obj)$/;"	f
+jsonz_array_size	../src/object.c	/^size_t jsonz_array_size(void *obj)$/;"	f
+jsonz_array_t	../src/j_object.c	/^typedef struct jsonz_array_t {$/;"	s	file:
+jsonz_array_t	../src/j_object.c	/^} jsonz_array_t;$/;"	t	typeref:struct:jsonz_array_t	file:
+jsonz_array_t	../src/object.c	/^typedef struct jsonz_array_t {$/;"	s	file:
+jsonz_array_t	../src/object.c	/^} jsonz_array_t;$/;"	t	typeref:struct:jsonz_array_t	file:
+jsonz_dict_get	../src/j_object.c	/^void *jsonz_dict_get(void *obj, const char *key)$/;"	f
+jsonz_dict_get	../src/object.c	/^void *jsonz_dict_get(void *obj, const char *key)$/;"	f
+jsonz_dict_key	../src/j_object.c	/^const char *jsonz_dict_key(void *obj, unsigned index)$/;"	f
+jsonz_dict_key	../src/object.c	/^const char *jsonz_dict_key(void *obj, unsigned index)$/;"	f
+jsonz_dict_set	../src/j_object.c	/^void *jsonz_dict_set(void *obj, const char *key, void *elem)$/;"	f
+jsonz_dict_set	../src/object.c	/^void *jsonz_dict_set(void *obj, const char *key, void *elem)$/;"	f
+jsonz_dict_size	../src/j_object.c	/^size_t jsonz_dict_size(void *obj)$/;"	f
+jsonz_dict_size	../src/object.c	/^size_t jsonz_dict_size(void *obj)$/;"	f
+jsonz_dict_t	../src/j_object.c	/^typedef struct jsonz_dict_t {$/;"	s	file:
+jsonz_dict_t	../src/j_object.c	/^} jsonz_dict_t;$/;"	t	typeref:struct:jsonz_dict_t	file:
+jsonz_dict_t	../src/object.c	/^typedef struct jsonz_dict_t {$/;"	s	file:
+jsonz_dict_t	../src/object.c	/^} jsonz_dict_t;$/;"	t	typeref:struct:jsonz_dict_t	file:
+jsonz_null_t	../src/j_object.c	/^typedef struct jsonz_null_t {$/;"	s	file:
+jsonz_null_t	../src/j_object.c	/^} jsonz_null_t;$/;"	t	typeref:struct:jsonz_null_t	file:
+jsonz_null_t	../src/object.c	/^typedef struct jsonz_null_t {$/;"	s	file:
+jsonz_null_t	../src/object.c	/^} jsonz_null_t;$/;"	t	typeref:struct:jsonz_null_t	file:
+jsonz_number_get_bool_value	../src/j_object.c	/^int jsonz_number_get_bool_value(void *obj)$/;"	f
+jsonz_number_get_bool_value	../src/object.c	/^int jsonz_number_get_bool_value(void *obj)$/;"	f
+jsonz_number_get_float_value	../src/j_object.c	/^double jsonz_number_get_float_value(void *obj)$/;"	f
+jsonz_number_get_float_value	../src/object.c	/^double jsonz_number_get_float_value(void *obj)$/;"	f
+jsonz_number_get_int_value	../src/j_object.c	/^long long jsonz_number_get_int_value(void *obj)$/;"	f
+jsonz_number_get_int_value	../src/object.c	/^long long jsonz_number_get_int_value(void *obj)$/;"	f
+jsonz_number_set_bool_value	../src/j_object.c	/^void jsonz_number_set_bool_value(void *obj, int b)$/;"	f
+jsonz_number_set_bool_value	../src/object.c	/^void jsonz_number_set_bool_value(void *obj, int b)$/;"	f
+jsonz_number_set_float_value	../src/j_object.c	/^void jsonz_number_set_float_value(void *obj, double d)$/;"	f
+jsonz_number_set_float_value	../src/object.c	/^void jsonz_number_set_float_value(void *obj, double d)$/;"	f
+jsonz_number_set_int_value	../src/j_object.c	/^void jsonz_number_set_int_value(void *obj, long long i)$/;"	f
+jsonz_number_set_int_value	../src/object.c	/^void jsonz_number_set_int_value(void *obj, long long i)$/;"	f
+jsonz_number_t	../src/j_object.c	/^typedef struct jsonz_number_t {$/;"	s	file:
+jsonz_number_t	../src/j_object.c	/^} jsonz_number_t;$/;"	t	typeref:struct:jsonz_number_t	file:
+jsonz_number_t	../src/object.c	/^typedef struct jsonz_number_t {$/;"	s	file:
+jsonz_number_t	../src/object.c	/^} jsonz_number_t;$/;"	t	typeref:struct:jsonz_number_t	file:
+jsonz_object_free	../src/j_object.c	/^void jsonz_object_free(void *obj)$/;"	f
+jsonz_object_free	../src/object.c	/^void jsonz_object_free(void *obj)$/;"	f
+jsonz_object_get_type	../src/j_object.c	/^int jsonz_object_get_type(void *obj)$/;"	f
+jsonz_object_get_type	../src/object.c	/^int jsonz_object_get_type(void *obj)$/;"	f
+jsonz_object_new	../src/j_object.c	/^void *jsonz_object_new(int type)$/;"	f
+jsonz_object_new	../src/object.c	/^void *jsonz_object_new(int type)$/;"	f
+jsonz_object_t	../src/j_object.c	/^typedef struct jsonz_object_t {$/;"	s	file:
+jsonz_object_t	../src/j_object.c	/^} jsonz_object_t;$/;"	t	typeref:struct:jsonz_object_t	file:
+jsonz_object_t	../src/object.c	/^typedef struct jsonz_object_t {$/;"	s	file:
+jsonz_object_t	../src/object.c	/^} jsonz_object_t;$/;"	t	typeref:struct:jsonz_object_t	file:
+jsonz_parse	../src/jsonz.c	/^void *jsonz_parse(const char *str)$/;"	f
+jsonz_parser_t	../src/jsonz.c	/^typedef struct jsonz_parser_t {$/;"	s	file:
+jsonz_parser_t	../src/jsonz.c	/^} jsonz_parser_t;$/;"	t	typeref:struct:jsonz_parser_t	file:
+jsonz_string_get_str	../src/j_object.c	/^const char *jsonz_string_get_str(void *obj)$/;"	f
+jsonz_string_get_str	../src/object.c	/^const char *jsonz_string_get_str(void *obj)$/;"	f
+jsonz_string_set_str	../src/j_object.c	/^void jsonz_string_set_str(void *obj, const char *str_new)$/;"	f
+jsonz_string_set_str	../src/object.c	/^void jsonz_string_set_str(void *obj, const char *str_new)$/;"	f
+jsonz_string_set_str_nocopy	../src/j_object.c	/^void jsonz_string_set_str_nocopy(void *obj, char *str_new)$/;"	f
+jsonz_string_set_str_nocopy	../src/object.c	/^void jsonz_string_set_str_nocopy(void *obj, char *str_new)$/;"	f
+jsonz_string_t	../src/j_object.c	/^typedef struct jsonz_string_t {$/;"	s	file:
+jsonz_string_t	../src/j_object.c	/^} jsonz_string_t;$/;"	t	typeref:struct:jsonz_string_t	file:
+jsonz_string_t	../src/object.c	/^typedef struct jsonz_string_t {$/;"	s	file:
+jsonz_string_t	../src/object.c	/^} jsonz_string_t;$/;"	t	typeref:struct:jsonz_string_t	file:
+kAudioConverterPropertyMaximumOutputPacketSize	../src/wav.c	20;"	d	file:
+keys	../src/j_object.c	/^	char **keys;$/;"	m	struct:jsonz_dict_t	file:
+keys	../src/object.c	/^	char **keys;$/;"	m	struct:jsonz_dict_t	file:
+language	../src/recognize.c	/^	char *language;$/;"	m	struct:sprec_recattr_internal	file:
+length	../include/sprec/web_client.h	/^	int length;$/;"	m	struct:sprec_server_response
+main	../examples/simple.c	/^int main(int argc, char *argv[])$/;"	f
+main	../examples/tool.c	/^int main(int argc, char *argv[])$/;"	f
+memstr	../src/flac_encoder.c	/^const char *memstr(const void *haystack, const char *needle, size_t size)$/;"	f
+number_of_channels	../include/sprec/wav.h	/^	uint16_t number_of_channels;$/;"	m	struct:sprec_wav_header
+parse	../src/jsonz.c	/^static void *parse(jsonz_parser_t *p)$/;"	f	file:
+parse_arr	../src/jsonz.c	/^static void *parse_arr(jsonz_parser_t *p)$/;"	f	file:
+parse_dic	../src/jsonz.c	/^static void *parse_dic(jsonz_parser_t *p)$/;"	f	file:
+parse_fal	../src/jsonz.c	/^static void *parse_fal(jsonz_parser_t *p)$/;"	f	file:
+parse_nul	../src/jsonz.c	/^static void *parse_nul(jsonz_parser_t *p)$/;"	f	file:
+parse_num	../src/jsonz.c	/^static void *parse_num(jsonz_parser_t *p)$/;"	f	file:
+parse_str	../src/jsonz.c	/^static void *parse_str(jsonz_parser_t *p)$/;"	f	file:
+parse_tru	../src/jsonz.c	/^static void *parse_tru(jsonz_parser_t *p)$/;"	f	file:
+queue	../src/wav.c	/^	AudioQueueRef queue;$/;"	m	struct:sprec_record_state	file:
+sample_rate	../include/sprec/wav.h	/^	uint32_t sample_rate;$/;"	m	struct:sprec_wav_header
+size	../src/j_object.c	/^	size_t size;$/;"	m	struct:jsonz_array_t	file:
+size	../src/j_object.c	/^	size_t size;$/;"	m	struct:jsonz_dict_t	file:
+size	../src/object.c	/^	size_t size;$/;"	m	struct:jsonz_array_t	file:
+size	../src/object.c	/^	size_t size;$/;"	m	struct:jsonz_dict_t	file:
+skip_space	../src/jsonz.c	/^static inline void skip_space(jsonz_parser_t *p)$/;"	f	file:
+sprec_calculate_buffsize	../src/wav.c	/^void sprec_calculate_buffsize(AudioQueueRef audio_queue, AudioStreamBasicDescription desc, Float64 seconds, UInt32 *buff_size)$/;"	f
+sprec_callback	../include/sprec/recognize.h	/^typedef void (*sprec_callback)(struct sprec_result *, void *);$/;"	t
+sprec_delay_millisec	../src/wav.c	/^void sprec_delay_millisec(int ms)$/;"	f
+sprec_flac_encode	../src/flac_encoder.c	/^int sprec_flac_encode(const char *wavfile, const char *flacfile)$/;"	f
+sprec_free_response	../src/web_client.c	/^void sprec_free_response(struct sprec_server_response *resp)$/;"	f
+sprec_get_confidence_from_json	../src/web_client.c	/^double sprec_get_confidence_from_json(const char *json)$/;"	f
+sprec_get_file_contents	../src/web_client.c	/^int sprec_get_file_contents(const char *file, void **cont, size_t *size)$/;"	f
+sprec_get_text_from_json	../src/web_client.c	/^char *sprec_get_text_from_json(const char *json)$/;"	f
+sprec_handle_input_buffer	../src/wav.c	/^void sprec_handle_input_buffer(void *data, AudioQueueRef inAQ, AudioQueueBufferRef buffer, const AudioTimeStamp *start_time, UInt32 num_packets, const AudioStreamPacketDescription *desc)$/;"	f
+sprec_pthread_fn	../src/recognize.c	/^void *sprec_pthread_fn(void *ctx)$/;"	f
+sprec_recattr_internal	../src/recognize.c	/^struct sprec_recattr_internal {$/;"	s	file:
+sprec_recognize_async	../src/recognize.c	/^pthread_t sprec_recognize_async(const char *lang, float dur_s, sprec_callback cb, void *userdata)$/;"	f
+sprec_recognize_sync	../src/recognize.c	/^struct sprec_result *sprec_recognize_sync(const char *lang, float dur_s)$/;"	f
+sprec_record_state	../src/wav.c	/^struct sprec_record_state {$/;"	s	file:
+sprec_record_wav	../src/wav.c	/^int sprec_record_wav(const char *filename, struct sprec_wav_header *hdr, uint32_t duration_ms)$/;"	f
+sprec_result	../include/sprec/recognize.h	/^struct sprec_result {$/;"	s
+sprec_result_free	../src/recognize.c	/^void sprec_result_free(struct sprec_result *res)$/;"	f
+sprec_send_audio_data	../src/web_client.c	/^struct sprec_server_response *sprec_send_audio_data(void *data, int length, const char *language, uint32_t sample_rate)$/;"	f
+sprec_server_response	../include/sprec/web_client.h	/^struct sprec_server_response {$/;"	s
+sprec_setup_audio_format	../src/wav.c	/^void sprec_setup_audio_format(struct sprec_wav_header *hdr, AudioStreamBasicDescription *desc)$/;"	f
+sprec_wav_header	../include/sprec/wav.h	/^struct sprec_wav_header {$/;"	s
+sprec_wav_header_from_data	../src/wav.c	/^struct sprec_wav_header *sprec_wav_header_from_data(const void *ptr)$/;"	f
+sprec_wav_header_from_params	../src/wav.c	/^struct sprec_wav_header *sprec_wav_header_from_params(uint32_t sample_rate, uint16_t bit_depth, uint16_t channels)$/;"	f
+sprec_wav_header_write	../src/wav.c	/^int sprec_wav_header_write(int fd, struct sprec_wav_header *hdr)$/;"	f
+str	../src/j_object.c	/^	char *str;$/;"	m	struct:jsonz_string_t	file:
+str	../src/jsonz.c	/^	const char *str;$/;"	m	struct:jsonz_parser_t	file:
+str	../src/object.c	/^	char *str;$/;"	m	struct:jsonz_string_t	file:
+text	../include/sprec/recognize.h	/^	char *text;$/;"	m	struct:sprec_result
+type	../src/j_object.c	/^	int type;$/;"	m	struct:jsonz_object_t	file:
+type	../src/object.c	/^	int type;$/;"	m	struct:jsonz_object_t	file:
+uint32_t	../include/sprec/web_client.h	/^typedef unsigned int uint32_t;$/;"	t
+unescape_char	../src/jsonz.c	/^static long unescape_char(jsonz_parser_t *p)$/;"	f	file:
+userdata	../src/recognize.c	/^	void *userdata;$/;"	m	struct:sprec_recattr_internal	file:
+val	../src/j_object.c	/^	} val;$/;"	m	struct:jsonz_number_t	typeref:union:jsonz_number_t::__anon2	file:
+val	../src/object.c	/^	} val;$/;"	m	struct:jsonz_number_t	typeref:union:jsonz_number_t::__anon1	file:
+vals	../src/j_object.c	/^	void **vals;$/;"	m	struct:jsonz_array_t	file:
+vals	../src/j_object.c	/^	void **vals;$/;"	m	struct:jsonz_dict_t	file:
+vals	../src/object.c	/^	void **vals;$/;"	m	struct:jsonz_array_t	file:
+vals	../src/object.c	/^	void **vals;$/;"	m	struct:jsonz_dict_t	file:
