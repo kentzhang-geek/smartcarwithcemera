@@ -20,4 +20,7 @@ Advanced：
 /* 当前进度 */
 阅读无线数传资料
 阅读摄像头资料，准备项目文件夹
-尝试语音识别程序
+
+/* 已完成 */
+DIR							Description
+practice/Voice				尝试语音识别小程序
