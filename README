@@ -22,7 +22,8 @@ Advanced：
 
 /* 已完成 */
 方案已出
-DIR							Description
-practice/Voice				尝试语音识别小程序
-practice/OpenCV/imageRW		图片读取和存储
-practice/OpenCV/grepVedio	图片从摄像头抓取并且显示
+DIR										Description
+practice/Voice							尝试语音识别小程序
+practice/OpenCV/imageRW					图片读取和存储
+practice/OpenCV/grepVedio				图片从摄像头抓取并且显示
+practice/OpenCV/CamEncode&Decode		视频编码与解码
