@@ -1,0 +1,1 @@
+/home/kent/桌面/tmp/smartcarwithcemera/videostream/server/CMakeFiles/camserver.dir

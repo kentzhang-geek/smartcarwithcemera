@@ -27,3 +27,5 @@ practice/Voice							尝试语音识别小程序
 practice/OpenCV/imageRW					图片读取和存储
 practice/OpenCV/grepVedio				图片从摄像头抓取并且显示
 practice/OpenCV/CamEncode&Decode		视频编码与解码
+videostream/server						树莓派视频流服务器
+videostream/client						PC端视频流服务器
