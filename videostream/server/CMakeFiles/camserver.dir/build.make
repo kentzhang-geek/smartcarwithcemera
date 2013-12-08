@@ -56,15 +56,15 @@ CMakeFiles/camserver.dir/camserver.o: CMakeFiles/camserver.dir/flags.make
 CMakeFiles/camserver.dir/camserver.o: camserver.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/camserver.dir/camserver.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/camserver.dir/camserver.o -c /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/camserver.cpp
+	/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/camserver.dir/camserver.o -c /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/camserver.cpp
 
 CMakeFiles/camserver.dir/camserver.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/camserver.dir/camserver.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/camserver.cpp > CMakeFiles/camserver.dir/camserver.i
+	/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/camserver.cpp > CMakeFiles/camserver.dir/camserver.i
 
 CMakeFiles/camserver.dir/camserver.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/camserver.dir/camserver.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/camserver.cpp -o CMakeFiles/camserver.dir/camserver.s
+	/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kent/桌面/tmp/smartcarwithcemera/videostream/server/camserver.cpp -o CMakeFiles/camserver.dir/camserver.s
 
 CMakeFiles/camserver.dir/camserver.o.requires:
 .PHONY : CMakeFiles/camserver.dir/camserver.o.requires
@@ -84,39 +84,39 @@ camserver_EXTERNAL_OBJECTS =
 
 camserver: CMakeFiles/camserver.dir/camserver.o
 camserver: CMakeFiles/camserver.dir/build.make
-camserver: /home/kent/opencv/lib/libopencv_videostab.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_video.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_ts.a
-camserver: /home/kent/opencv/lib/libopencv_superres.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_stitching.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_photo.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_ocl.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_objdetect.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_nonfree.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_ml.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_legacy.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_imgproc.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_highgui.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_gpu.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_flann.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_features2d.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_core.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_contrib.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_calib3d.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_nonfree.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_ocl.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_gpu.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_photo.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_objdetect.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_legacy.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_video.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_ml.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_calib3d.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_features2d.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_highgui.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_imgproc.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_flann.so.2.4.7
-camserver: /home/kent/opencv/lib/libopencv_core.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_videostab.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_video.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_ts.a
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_superres.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_stitching.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_photo.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_ocl.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_objdetect.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_nonfree.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_ml.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_legacy.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_imgproc.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_highgui.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_gpu.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_flann.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_features2d.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_core.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_contrib.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_calib3d.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_nonfree.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_ocl.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_gpu.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_photo.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_objdetect.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_legacy.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_video.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_ml.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_calib3d.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_features2d.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_highgui.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_imgproc.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_flann.so.2.4.7
+camserver: /home/kent/桌面/tmp/opencv-2.4.7/lib/libopencv_core.so.2.4.7
 camserver: CMakeFiles/camserver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable camserver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/camserver.dir/link.txt --verbose=$(VERBOSE)

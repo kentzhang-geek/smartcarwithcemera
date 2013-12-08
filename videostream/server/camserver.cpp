@@ -73,6 +73,10 @@ int takepic(vector<uchar> &buf)
 		perror("Error Capture:");
 		return -1;
 	}
+	/* 图像压缩 */
+	params.push_back(CV_IMWRITE_JPEG_QUALITY);
+	params.push_back(75);
+
 	imencode("test.jpg", frame, buf, params);
 	LOG("Datasize = %ld\n", buf.size());
 
@@ -99,7 +103,7 @@ int main(int argc, char **argv)
 	vector<char> buffer_in;			/* 输入缓存 */
 	vector<uchar> buffer_out;		/* 输出缓存 */
 
-//	ret = daemon(1, 1);
+	ret = daemon(1, 1);
 	if (0 != ret)
 	{
 		printf("Make Daemon Error.\n");

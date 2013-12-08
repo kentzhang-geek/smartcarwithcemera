@@ -18,11 +18,10 @@ Advanced：
 3	回传的摄像头数据在PC上进行显示
 
 /* 当前进度 */
-基本完成
+加入图像压缩,减小传输压力
 
 
 /* 已完成 */
-方案已出
 DIR										Description
 practice/Voice							尝试语音识别小程序
 practice/OpenCV/imageRW					图片读取和存储

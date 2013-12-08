@@ -1,4 +1,4 @@
-SET(CMAKE_C_COMPILER "/usr/bin/gcc")
+SET(CMAKE_C_COMPILER "/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-gcc")
 SET(CMAKE_C_COMPILER_ARG1 "")
 SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_C_COMPILER_VERSION "4.7.2")
@@ -27,9 +27,9 @@ SET(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 SET(CMAKE_C_LINKER_PREFERENCE 10)
 
 # Save compiler ABI information.
-SET(CMAKE_C_SIZEOF_DATA_PTR "8")
+SET(CMAKE_C_SIZEOF_DATA_PTR "4")
 SET(CMAKE_C_COMPILER_ABI "ELF")
-SET(CMAKE_C_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")
+SET(CMAKE_C_LIBRARY_ARCHITECTURE "arm-linux-gnueabihf")
 
 IF(CMAKE_C_SIZEOF_DATA_PTR)
   SET(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")
@@ -40,14 +40,14 @@ IF(CMAKE_C_COMPILER_ABI)
 ENDIF(CMAKE_C_COMPILER_ABI)
 
 IF(CMAKE_C_LIBRARY_ARCHITECTURE)
-  SET(CMAKE_LIBRARY_ARCHITECTURE "x86_64-linux-gnu")
+  SET(CMAKE_LIBRARY_ARCHITECTURE "arm-linux-gnueabihf")
 ENDIF()
 
 SET(CMAKE_C_HAS_ISYSROOT "")
 
 
 SET(CMAKE_C_IMPLICIT_LINK_LIBRARIES "c")
-SET(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+SET(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/lib/gcc/arm-linux-gnueabihf/4.7.2;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/lib/gcc;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/lib/gcc/arm-linux-gnueabihf;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/arm-linux-gnueabihf/lib;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/arm-linux-gnueabihf/libc/lib;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/arm-linux-gnueabihf/libc/usr/lib;/home/kent/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf")
 
 
 
