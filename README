@@ -18,8 +18,7 @@ Advanced：
 3	回传的摄像头数据在PC上进行显示
 
 /* 当前进度 */
-加入图像压缩,减小传输压力
-
+项目结束,进行收尾封版~~
 
 /* 已完成 */
 DIR										Description
@@ -31,3 +30,4 @@ videostream/server						树莓派视频流服务器
 videostream/client						PC端视频流服务器
 GPIO/server								树梅派行走控制服务器
 GPIO/client								树梅派行走控制客户端
+toolchain.cmake							树莓派工具链的Cmake文件
